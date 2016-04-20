@@ -232,7 +232,7 @@ public class Drawings {
 
     public static void printThankYou() throws IOException {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("Resource/Shruikan1.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Resource/Shruikan.txt"));
             String line = reader.readLine();
 
             while (line != null) {
@@ -254,7 +254,7 @@ public class Drawings {
 
     public static void printHangman() throws IOException {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("Resource/Shruikan1.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Resource/Shruikan.txt"));
             String line = reader.readLine();
 
             while (line != null) {
